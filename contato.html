@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ae32040700.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo2.css">
+    <title>PHREVE</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            overflow-x: hidden;
+            background-color: rgb(221, 221, 221);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/imagem/backrgound2.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        h1 {
+            color: #60a3bc;
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 50px;
+            padding-top: 10px;
+        }
+        
+        .nome {
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        .center {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .alguma {
+            text-align: center;
+        }
+        
+        b {
+            font-family: 'DM Sans', sans-serif;
+            color: #60a3bc;
+        }
+        
+        i {
+            color: #ffffff;
+        }
+        
+        .icones {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+        .phreve {
+            text-align: center;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: #60a3bc;
+        }
+        
+        footer {
+            color: #ffffff;
+            text-align: center;
+            background-color: #0a3d62;
+        }
+        
+        .box {
+            width: 40%;
+            text-align: left;
+        }
+        
+        fieldset {
+            border: solid #60a3bc 3px;
+            border-radius: 15px;
+        }
+        
+        legend {
+            text-align: center;
+            border: solid #60a3bc 1px;
+            width: 30%;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .inputBox {
+            position: relative;
+            padding: 10px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid #60a3bc;
+            outline: none;
+            color: #60a3bc;
+            font-size: 15px;
+            width: 95%;
+            letter-spacing: 2px;
+        }
+        
+        .inputUser {
+            padding: 10px;
+            background: none;
+            border: none;
+            outline: none;
+            color: #60a3bc;
+            font-size: 15px;
+            width: 100%;
+            letter-spacing: 2px;
+        }
+        
+        .labelInput {
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        .logo{
+            width: 200px;
+        }
+
+        a{
+            color: white;
+        }
+
+        .letra{
+            color: #ffffff;
+        }
+
+        .btn{
+            border: none;
+            color: #60a3bc;
+            background-color: #0a3d62;
+        }
+
+        @media (max-width:1000px){
+            legend{
+                width: 40%;
+            }
+        }
+    </style>
+    <header>
+        <div class="inner-width">
+          <a href="#" class="logo"><img src="/imagem/logo.png" alt=""></a>
+          <i class="menu-toggle-btn fas fa-bars"></i>
+          <nav class="navigation-menu">
+            <a href="/index.html"><i class="fas fa-home home"></i> Home</a>
+            <a href="/sobre.html"><i class="fas fa-align-left about"></i> Sobre</a>
+            <a href="/contato.html"><i class="fas fa-headset contact"></i> Contato</a>
+            <a href="/login.html"><i class="fas fa-users team"></i> Sair</a>
+          </nav>
+        </div>
+      </header>
+      <script type="text/javascript">
+        $(".menu-toggle-btn").click(function(){
+          $(this).toggleClass("fa-times");
+          $(".navigation-menu").toggleClass("active");
+        });
+      </script>
+    <br><br><br><br><br><br><br><br>
+    <div class="box">
+        <fieldset>
+            <legend><b>Contato</b></legend>
+            <br>
+            <div class="inputUser">
+                <label for="nome" class="labelInput">Nome Completo</label>
+                <input type="text" name="nome" id="nome" class="inputBox" required>
+            </div>
+            <br><br>
+            <div class="inputUser">
+                <label for="email" class="labelInput">Email</label>
+                <input type="text" name="email" id="email" class="inputBox" required>
+            </div>
+            <br><br>
+            <div class="inputUser">
+                <label for="coment" class="labelInput">O que nós podemos melhorar</label>
+                <textarea name="comentarios" id="coment" cols="50" rows="8" class="inputBox"></textarea>
+            </div>
+            <br>
+            <div class="center">
+                <button class="btn" type="submit">Enviar</button>
+            </div>
+        </fieldset>
+    </div>
+
+    <br><br><br><br>
+    <footer class="footer">
+        <div class="container">
+            <b class="letra">Pedro Brusque | Rogério Ryu | Vinicius Rodrigues</b>
+            <br>
+            <b class="letra"> rogerioryuss@gmail.com</b>
+            <br>
+            <div>
+                <a href="#"><i class="fab fa-facebook fa-2x footericone, icones"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x footericone, icones"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-2x footericone, icones"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

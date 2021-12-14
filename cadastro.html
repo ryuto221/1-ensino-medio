@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ae32040700.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/estilo.css">
+    <title>PHREVE</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            overflow-x: hidden;
+            background-color: rgb(221, 221, 221);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(/imagem/bg2.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        h1 {
+            color: #60a3bc;
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 50px;
+            padding-top: 10px;
+        }
+
+        .logo{
+            width: 300px;
+        }
+        
+        h2 {
+            font-family: 'Balsamiq Sans', cursive;
+            text-decoration: underline;
+        }
+        
+        .nome {
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        b {
+            font-family: 'DM Sans', sans-serif;
+            color: #ffffff;
+        }
+        
+        p {
+            font-family: 'DM Sans', sans-serif;
+        }
+        
+        i {
+            color: #60a3bc;
+        }
+
+        .fab{
+            color: #ffffff;
+        }
+
+        a {
+            color: #60a3bc;
+        }
+        
+        .icones {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+        .phreve {
+            margin-top: 100px;
+            text-align: center;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: #60a3bc;
+        }
+        
+        footer {
+            color: #ffffff;
+            text-align: center;
+            background-color: #0a3d62;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        
+        .imagem:hover{
+            width: 610px;
+            transition: 0.5s;
+        }
+
+        .cada{
+            padding-right: 117px;
+        }
+    </style>
+    <div class="phreve">
+       <a href="index.html"><img class="logo" src="/imagem/logo.png" alt=""></a>
+    </div>
+    <br><br><br><br>
+    <div class="login-box">
+        <h1>Cadastrar-se</h1>
+        <div class="textbox">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Usuário">
+        </div>
+
+        <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Confirmar Usuário">
+          </div>
+      
+        <div class="textbox">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Senha">
+        </div>
+
+        <div class="textbox">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Confirmar Senha">
+        </div>
+
+        <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Email">
+        </div>
+      
+        <input type="button" class="btn2" value="Cadastrar">
+        <br><br>
+        <a class="cada" href="/login.html">Login</a>
+        <a href="/esqueci.html">Esqueci a senha</a>
+      </div>
+    <br><br><br><br><br>
+    <footer class="footer">
+        <div class="container">
+            <b>Pedro Brusque | Rogério Ryu | Vinicius Rodrigues</b>
+            <br>
+            <b> rogerioryuss@gmail.com</b>
+            <br>
+            <div>
+                <a href="#"><i class="fab fa-facebook fa-2x footericone, icones"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x footericone, icones"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-2x footericone, icones"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ae32040700.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo2.css">
+    <title>PHREVE</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            overflow-x: hidden;
+            background-color: rgb(221, 221, 221);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/imagem/scorpion.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            color: #60a3bc;
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 50px;
+            padding-top: 10px;
+        }
+        
+        .nome {
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        .center {
+            text-align: center;
+            border: solid 5px #60a3bc;
+            width: 50%;
+            padding: 15px;
+        }
+        
+        .alguma {
+            text-align: center;
+        }
+        
+        b {
+            font-family: 'DM Sans', sans-serif;
+            color: #60a3bc;
+            margin-top: 30px;
+        }
+        
+        i {
+            color: #ffffff;
+        }
+        
+        .icones {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+        .phreve {
+            text-align: center;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: #60a3bc;
+        }
+
+        footer {
+            color: #ffffff;
+            text-align: center;
+            background-color: #0a3d62;
+        }
+
+        .logo{
+            width: 200px;
+        }
+        
+        a{
+            color: white;
+        }
+
+        h2{
+            color: #60a3bc;
+        }
+
+        .left{
+            text-align: left;
+        }
+
+        h2 {
+            font-family: 'Balsamiq Sans', cursive;
+            text-decoration: underline;
+        }
+
+        .col{
+            color: #60a3bc;
+        }
+        
+        .row{
+            text-align: center;
+        }
+
+        .bonitos{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+
+        .letra{
+            color: #ffffff;
+        }
+    </style>
+    <header>
+        <div class="inner-width">
+          <a href="#" class="logo"><img src="/imagem/logo.png" alt=""></a>
+          <i class="menu-toggle-btn fas fa-bars"></i>
+          <nav class="navigation-menu">
+            <a href="/index.html"><i class="fas fa-home home"></i> Home</a>
+            <a href="/sobre.html"><i class="fas fa-align-left about"></i> Sobre</a>
+            <a href="/contato.html"><i class="fas fa-headset contact"></i> Contato</a>
+            <a href="/login.html"><i class="fas fa-users team"></i> Sair</a>
+          </nav>
+        </div>
+      </header>
+      <script type="text/javascript">
+        $(".menu-toggle-btn").click(function(){
+          $(this).toggleClass("fa-times");
+          $(".navigation-menu").toggleClass("active");
+        });
+      </script>
+    <br><br><br><br><br><br><br><br>
+        <div class="center">
+            <h2>
+                O que é o Projeto Integrador(PI)?
+            </h2>
+            <br>
+            <div class="left">
+                <b>
+                    O Projeto Integrador (PI) é uma Unidade Curricular, 
+                    baseada na metodologia de ação-reflexão-ação, 
+                    que se constitui na proposição de situações desafiadoras 
+                    a serem cumpridas pelo aluno. Esta unidade curricular é 
+                    obrigatória nos cursos de Aprendizagem Comercial, 
+                    Qualificação Profissional e cursos Técnicos. 
+                    O planejamento e execução do Projeto Integrador 
+                    propiciam a articulação das competências previstas no 
+                    perfil profissional de conclusão do curso, 
+                    pois apresenta ao aluno situações que estimulam o seu 
+                    desenvolvimento profissional ao ter que decidir, 
+                    opinar e debater com o grupo a resolução de problemas a 
+                    partir do tema gerador, portanto, o aluno poderá 
+                    demonstrar sua atuação profissional pautada pelas marcas 
+                    formativas do Senac, uma vez que permite o trabalho em 
+                    equipe e o exercício da ética, da responsabilidade social e da 
+                    atitude empreendedora.
+                </b>
+            </div>
+            <br><br><br><br>
+            <div>
+                <h2>
+                    Sobre o site:
+                </h2>
+                <br>
+                <div class="left">
+                    <b>
+                        Esse site foi feito para pessoas de todas as idades, 
+                        ele conta um pouco sobre os jogos escolidos, para as pessoas que estão interessadas 
+                        em comprar o jogo poderem consultar o site, nesse site contem um pouco da historia do 
+                        jogo, data de lançamento, faixa etária, avaliações e algumas imagens das gameplays.
+                    </b>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="row">
+            <div class="col">
+                Pedro Brusque:
+            </div>
+            <div class="col">
+                Rogério Ryu:    
+            </div>
+            <div class="col">
+                Vinicius:
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="bonitos" src="/imagem/predo.png" alt="">
+            </div>
+            <div class="col">
+                <img class="bonitos" src="/imagem/japa.png" alt="">   
+            </div>
+            <div class="col">
+                <img class="bonitos" src="/imagem/vini.png" alt="">
+            </div>
+        </div>
+    <br><br><br><br><br>
+    <footer class="footer">
+        <div class="container">
+            <b class="letra">Pedro Brusque | Rogério Ryu | Vinicius Rodrigues</b>
+            <br>
+            <b class="letra"> rogerioryuss@gmail.com</b>
+            <br>
+            <div>
+                <a href="#"><i class="fab fa-facebook fa-2x footericone, icones"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x footericone, icones"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-2x footericone, icones"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

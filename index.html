@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ae32040700.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo2.css">
+    <title>PHREVE</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            overflow-x: hidden;
+            background-color: rgb(255, 255, 255);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(/imagem/background3.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        h1 {
+            color: #60a3bc;
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 50px;
+            padding-top: 10px;
+        }
+
+        .logo{
+            width: 200px;
+        }
+        
+        h2 {
+            font-family: 'Balsamiq Sans', cursive;
+            text-decoration: underline;
+        }
+        
+        .nome {
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        .imagem {
+            width: 600px;
+            box-shadow: 3px 5px 6px #302f2f;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        .alguma {
+            text-align: center;
+        }
+        
+        .margin {
+            text-align: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            border: solid 6px;
+            color: #60a3bc;
+            box-shadow: 3px 5px 6px #302f2f;
+            width: 50%;
+        }
+        
+        b {
+            font-family: 'DM Sans', sans-serif;
+            color: #60a3bc;
+        }
+        
+        p {
+            font-family: 'DM Sans', sans-serif;
+        }
+        
+        i {
+            color: #ffffff;
+        }
+
+        a {
+            color: rgb(255, 255, 255);
+        }
+        
+        .icones {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+        .phreve {
+            text-align: center;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer {
+            color: #ffffff;
+            text-align: center;
+            background-color: #0a3d62;
+        }
+        
+        .imagem:hover{
+            width: 610px;
+            transition: 0.5s;
+        }
+
+        .letra{
+            color: #ffffff;
+        }
+
+        @media screen and (max-width:1000px) {
+            .margin {
+            width: 66%;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            color: #60a3bc;
+            box-shadow: 3px 5px 6px #302f2f;
+        }
+        } 
+    </style>
+    <header>
+        <div class="inner-width">
+          <a href="#" class="logo"><img src="/imagem/logo.png" alt=""></a>
+          <i class="menu-toggle-btn fas fa-bars"></i>
+          <nav class="navigation-menu">
+            <a href="/index.html"><i class="fas fa-home home"></i> Home</a>
+            <a href="/sobre.html"><i class="fas fa-align-left about"></i> Sobre</a>
+            <a href="/contato.html"><i class="fas fa-headset contact"></i> Contato</a>
+            <a href="/login.html"><i class="fas fa-users team"></i> Sair</a>
+          </nav>
+        </div>
+      </header>
+      <script type="text/javascript">
+        $(".menu-toggle-btn").click(function(){
+          $(this).toggleClass("fa-times");
+          $(".navigation-menu").toggleClass("active");
+        });
+      </script>
+    <br><br><br><br><br><br><br>
+    <div class="alguma">
+        <a href="https://sekiroshadowsdietwice.wiki.fextralife.com/Sekiro+Shadows+Die+Twice+Wiki" target="_blank"><img class="imagem" src="/imagem/sekiro.jpg" alt=""></a>
+    </div>
+    <br>
+    <div class="center">
+        <b>Data de lançamento: 22 de março de 2019</b>
+        <br><br>
+        <p style="color: #ffffff;"><b>Faixa Etária: +18</b></p>
+    </div>
+    <div class="margin">
+        <div class="nome">
+            <h2>Sekiro:</h2>
+        </div>
+        <p>
+            Sekiro Shadows Die Twice é um jogo eletrônico de ação-aventura desenvolvido pela FromSoftware e publicado pela Activision. Foi lançado em 22 de março de 2019 para Microsoft Windows, PlayStation 4 e Xbox One. O jogo se passa em uma versão mágica e fictícia
+            do período Sengoku no Japão, e segue um shinobi que tenta se vingar de um clã samurai que o atacou e sequestrou seu lorde. A jogabilidade éfictícias, algumas áreas são fortemente inspiradas em edifícios e locais do mundo real no Japão. Focada em furtividade, exploração e combate, com ênfase especial em batalhas contra chefes. Embora
+            a maior parte do jogo ocorra em áreas 
+        </p>
+        <br>
+        <h2>Dicas:</h2>
+        <p>
+            1- Não seja afobado, diferente dos outros jogos da FromSoftware, a cadência dos combates é ágil e os inimigos, mesmo os mais fracos, são tão ou mais habilidosos que o Lobo (Sekiro). Atacar sem pensar é um convite à derrota.
+        </p>
+        <p>
+            2- Mantenha a defesa e observe o padrão de ataque de seus oponentes, e ataque quando tiver uma brecha.
+        </p>
+        <p>
+            3- Treine para apertar o botão de defesa no momento em que o golpe do inimigo o atingir, a fim de repelir o ataque (parry) e contra-atacar. No entanto, mantenha em mente que o oponente pode e fará o mesmo, muitas vezes logo após um parry seu.
+        </p>
+        <p>
+            4- Use golpes stealth contra alguns subchefes, boa parte dos subchefes são quase tão difíceis quanto os chefes, e possuem mais de um ponto de vida, exigindo mais de um ataque fulminante para serem vencidos.
+        </p>
+        <p>
+            5- Para diminuir a dificuldade do combate, procure se aproximar sem ser visto e ataque-o de surpresa, o que removerá um ponto de vida imediatamente. Esse truque não funciona com todos os subchefes, pois a maioria deles é programada para sempre detectá-lo ao se aproximar, assim como os chefes. Mesmo assim, teste se aproximar por trás ou por cima, e ataque se você não foi visto.
+        </p>
+        <p>
+            6- Treine com Hanbei, Hanbei, o Imortal é um NPC que pode ser encontrado no Templo Dilapidado, e assim como o Lobo (Sekiro), é um guerreiro que sempre revive ao ser derrotado. Ele fornece dicas valiosas ao jogador e age também como um treinador, oferecendo diversos tutoriais. De tempos em tempos, volte ao templo e converse com Hanbei, e treine com ele novas técnicas adquiridas, para controlar o timing certo e usá-las da melhor maneira.
+        </p>
+        <p>
+            7- Ser derrotado e reviver várias vezes em Sekiro: Shadows Die Twice, voltando ao ídolo do Escultor, traz consequências negativas. NPCs ficarão doentes com a “praga do dragão”, que reduzirá suas chances de receber Auxílio Oculto (uma chance de não perder dinheiro e pontos de habilidade) e travará missões de personagens.
+        </p>
+    </div>
+    <br><br><br><br><br>
+    <div class="alguma">
+        <a href="https://genshin.mihoyo.com/pt/" target="_blank"><img class="imagem" src="/imagem/genshin.jpg" alt=""></a>
+    </div>
+    <br>
+    <div class="center">
+        <b>data de lançamento: 28 de setembro de 2020</b>
+        <br><br>
+        <p style="color: #ffffff;"><b>Faixa Etária: +12</b></p>
+    </div>
+    <div class="margin">
+        <div class="nome">
+            <h2>Genshin Impact:</h2>
+        </div>
+        <p>
+            Genshin Impact é um jogo eletrônico RPG de ação gratuito desenvolvido e publicado pela MiHoYo. O jogo apresenta um ambiente de mundo aberto de fantasia e sistema de batalha baseado em ação usando magia elemental e troca de personagem, e usa a monetização
+            de jogo gacha para os jogadores obterem novos personagens, armas e outros recursos. O jogo é apenas online e apresenta um modo multiplayer limitado que permite até quatro jogadores jogarem juntos. Foi lançado para Microsoft Windows, PlayStation
+            4, Android e iOS
+        </p>
+        <br>
+        <h2>Dicas:</h2>
+        <p>
+            1- Os primeiros personagens desbloqueados por meio da história (Amber, Kaeya e Lisa) ajudam a testar certas sinergias e mecânicas que o game tem a oferecer, não demora muito para alcançar o ponto no qual o jogo apresenta o sistema de Desejos, pelo qual é possível conseguir novos personagens. Portanto, não corra imediatamente investindo nesses personagens iniciais, em fazê-los Ascender ou Artefatos, já que, dependendo do que conseguir para seu elenco, pode ser que eles nem sejam mais tão úteis.
+        </p>
+        <p>
+            2- As sinergias e reações entre os elementos de Genshin Impact estão entre as mecânicas mais impactantes do game. Apenas aproveitando-as ao máximo o jogador será capaz de lidar com os desafios mais difíceis do game, como os níveis mais avançados do Abismo Espiral,  caso seja o objetivo participar de atividades mais difíceis, será muito importante pensar nessas questões, assim como rotações de habilidades, buffs, debuffs e afins.
+        </p>
+        <p>
+            3-  Cada armamento possui características e fornece benefícios diferentes, podendo ajudar de diversas maneiras diferentes. Principalmente equipamentos de cinco estrelas, possuem tanto seu benefício de atributos, claro, mas também diversas interações passivas. Preste atenção na função de cada personagem, olhe o que exatamente suas habilidades fazem e escolha a arma que mais se adequa ao que ele faz, não faz sentido utilizar uma arma (mesmo que cinco estrelas) cujo foco é aumentar o dano de ATK em um personagems que ficará escondido no time, aparecendo para usar uma habilidade de suporte e ir embora, por exemplo.
+        </p>
+        <p>
+            4- Reserve um tempo para sair pelo mapa do game em busca de Torres dos Sete e pontos de teletransporte. Além de fornecer um pequeno bônus de experiência, também irá acelerar sua movimentação em diversas ocasiões.
+        </p>
+        <p>
+            5- As Gemas Essenciais assim como outros itens são dados à esmo no início do jogo e são usadas para diversas transações, a mais impactante delas é comprar Destinos Familiares e entrelaçados, por exemplo, para fazer invocações de personagens por meio dos desejos. Por mais que no começo o jogo ofereça muito deste recurso, não saia gastando sem necessidade, já que ao avançar este fica mais escasso e mais necessário.
+        </p>
+        <p>
+            6- A Resina é um dos recursos que se torna extremamente importantes com o decorrer do jogo. No início pode parecer não ter tanta utilidade, mas ao progredir e desbloquear novas atividades, esta se torna indispensável. Assim que seu objetivo começar a envolver gastar resina para conquistar recompensas, busque concluir parte deles antes de qualquer coisa, para que a Resina se recupere com o tempo e não seja necessário gastar Gemas Essenciais para repor.
+        </p>
+        <p>
+            7- O sistema de Desejos é, sem dúvida, o que mais gera motivação no game. Porém, invista sabiamente. A maior dica é: nunca gastar para fazer apenas um desejo, invocar dez de uma vez traz muitos benefícios. Outra recomendação é sobre os banners especiais, se não há destacado nenhum personagem que você deseje, talvez não seja a hora de gastar seus Destinos, espere até que a chance de conseguir esteja a seu favor.
+        </p>
+        <p>
+            <a href="https://genshin-impact-map.appsample.com/#/">Mapa de itens do jogo</a>
+        </p>
+    </div>
+    <br><br><br><br><br>
+    <div class="alguma">
+        <a href="https://www.residentevil.com/village/en-asia/" target="_blank"><img class="imagem" src="/imagem/village.jpg" alt=""></a>
+    </div>
+    <br>
+    <div class="center">
+        <b>data de lançamento: 7 de maio de 2021</b>
+        <br><br>
+        <p style="color: #ffffff;"><b>Faixa Etária: +18</b></p>
+    </div>
+    <div class="margin">
+        <div class="nome">
+            <h2>Resident Evil Village:</h2>
+        </div>
+        <p>
+            Resident Evil: Village, é um jogo eletrônico de survival horror desenvolvido e publicado pela Capcom. É a sequência de Resident Evil 7, de 2017, e foi anunciado pela primeira vez no evento de revelação do PlayStation 5 em 11 de junho de 2020. Foi lançado
+            em 7 de maio de 2021 para Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One e Xbox Series X/S.o jogo é desenvolvido no RE Engine e é jogado em uma perspectiva em primeira pessoa. Até 30 de junho de 2021, o jogo vendeu 4,5 milhões de
+            unidades.
+
+        </p>
+    </div>
+    <br><br><br><br><br>
+    <div class="alguma">
+        <a href="https://www.ubisoft.com/en-gb/game/assassins-creed/valhalla" target="_blank"><img class="imagem" src="/imagem/creed.jpg" alt=""></a>
+    </div>
+    <br>
+    <div class="center">
+        <b>data de lançamento: 10 de novembro de 2020</b>
+        <br><br>
+        <p style="color: #ffffff;"><b>Faixa Etária: +18</b></p>
+    </div>
+    <div class="margin">
+        <div class="nome">
+            <h2>Assassin's Creed Valhalla:</h2>
+        </div>
+        <p>
+            Assassin's Creed Valhalla é um jogo eletrônico de RPG de ação desenvolvido pela Ubisoft Montreal e publicado pela Ubisoft. O sucessor de Assassin's Creed Odyssey, é o décimo segundo título principal e o vigésimo segundo lançamento da série Assassin's
+            Creed foi lançado para Google Stadia, Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One e Xbox Series X. Usando uma história alternativa, em Valhalla o jogador controla Eivor, um guerreiro Viking durante as Invasões da Grã Bretanha
+            no século IX.
+        </p>
+    </div>
+    <br><br><br><br><br>
+    <div class="alguma">
+        <a href="https://education.minecraft.net/pt-pt/homepage" target="_blank"><img class="imagem" src="/imagem/minecraft.jpg" alt=""></a>
+    </div>
+    <br>
+    <div class="center">
+        <b>data de lançamento: 18 de novembro de 2011</b>
+        <br><br>
+        <p style="color: #ffffff;"><b>Faixa Etária: Livre</b></p>
+    </div>
+    <div class="margin">
+        <div class="nome">
+            <h2>Minecraft:</h2>
+        </div>
+        <p>
+            Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus "Notch" Persson e 
+            posteriormente desenvolvido e publicado pela Mojang Studios, seu lançamento ocorreu em novembro de 2011 para Microsoft Windows, 
+            macOS e Linux, sendo posteriormente relançado para uma ampla variedade de plataformas. É o jogo eletrônico mais vendido de todos os tempos, 
+            vendendo mais de 238 milhões de cópias em todas as plataformas até abril de 2021, com mais de 140 milhões de jogadores ativos mensalmente.
+        </p>
+    </div>
+    <br><br><br><br><br>
+    <div class="alguma">
+        <a href="https://www.hollowknight.com" target="_blank"><img class="imagem" src="/imagem/hollow.jpg" alt=""></a>
+    </div>
+    <br>
+    <div class="center">
+        <b>data de lançamento: 24 de fevereiro de 2017</b>
+        <br><br>
+        <p style="color: #ffffff;"><b>Faixa Etária: +18</b></p>
+    </div>
+    <div class="margin">
+        <div class="nome">
+            <h2>Hollow Knight:</h2>
+        </div>
+        <p>
+            Hollow Knight é um jogo indie de gênero metroidvania desenvolvido e publicado pela Team Cherry. No jogo, um cavaleiro sem nome explora um reino em ruínas, habitado por insetos, para livrá-lo de uma infecção causada por um deus esquecido. O jogador deverá derrotar incontáveis inimigos poderosos e desbloquear habilidades novas para prosseguir no jogo e para explorar o reino esquecido em que se encontra e descobrir seus segredos.
+            O jogo foi lançado para Microsoft Windows, macOS e Linux em 2017 e, posteriormente, para Nintendo Switch, Playstation 4 e Xbox One em 2018.
+        </p>
+    </div>
+    <br><br><br><br><br>
+    <div class="alguma">
+        <a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege" target="_blank"><img class="imagem" src="/imagem/rainbow.jpg" alt=""></a>
+    </div>
+    <br>
+    <div class="center">
+        <b>data de lançamento: 1 de dezembro de 2015</b>
+        <br><br>
+        <p style="color: #ffffff;"><b>Faixa Etária: +18</b></p>
+    </div>
+    <div class="margin">
+        <div class="nome">
+            <h2>Rainbow Six:</h2>
+        </div>
+        <p>
+            Tom Clancy's Rainbow Six Siege é um videojogo do gênero first person shooter produzido pela Ubisoft Montreal. 
+            Foi anunciado pela Ubisoft a 9 de Junho de 2014 na Electronic Entertainment Expo 2014 onde foi muito aplaudido pela crítica. 
+            Foi lançado para Xbox One, PlayStation 4 e para Microsoft Windows. Existe uma grande controvérsia sobre a data de lançamento 
+            já que a propria Ubisoft em sua pagina de venda diz que o lançamento do Jogo ocorreu no ano de 1998.
+        </p>
+    </div>
+    <br><br><br><br><br>
+    <footer class="footer">
+        <div class="container">
+            <b class="letra">Pedro Brusque | Rogério Ryu | Vinicius Rodrigues</b>
+            <br>
+            <b class="letra"> rogerioryuss@gmail.com</b>
+            <br>
+            <div>
+                <a href="#"><i class="fab fa-facebook fa-2x footericone, icones"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x footericone, icones"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-2x footericone, icones"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
